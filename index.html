@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-27282B">
+    <div class="d-flex flex-column justify-content-center align-items-center home" id="home">
+        <div class="w-100 "><img class="w-100 headerx" src="images/wraper.png" alt="photo"></div>
+        <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9 bg-3A497B navx ">
+            <div class="container ">
+                <h5 class="navbar-brand mb-0 text-uppercase color-white">
+                    <img src="images/logo-sm.png" alt="logo photo" style="max-width: 40px"> Game Reviews
+                </h5>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="small navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small ">
+                        <li class="nav-item ">
+                            <a role="button" class="nav-link text-uppercase active color-white hover-blue"
+                                id="mmorpg">mmorpg</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase color-white hover-blue"
+                                id="shooter">shooter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase color-white hover-blue"
+                                id="sailing">sailing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase color-white hover-blue"
+                                id="permadeath">permadeath</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase color-white hover-blue"
+                                id="superhero">superhero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a role="button" class="nav-link text-uppercase color-white hover-blue" id="pixel">pixel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="w-100 bg-272B30 games-display pt-5">
+            <div class="bg-272B30  container my-5 ">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gamesd">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="details bg-27282B vh-100 d-none" id="Detailsid">
+        
+    </section>
+    <div class="loading d-none " id="loading">
+        <span class="loader"></span>
+     </div>
+    <script src="bootstrap.bundle.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
